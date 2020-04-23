@@ -16,7 +16,6 @@ const findRedundantBrackets = (str) => {
                     flag = false;
                 }
                 // elementInside += 1;
-                console.log(top);
                 top = stack.pop();
             }
             if (flag === true) return 1;
